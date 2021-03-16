@@ -3,7 +3,7 @@ package com.arhakim.materifintech
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class MainActivity : AppCompatActivity() {
+class DataActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -13,3 +13,4 @@ class MainActivity : AppCompatActivity() {
         val nama = intent.getStringArrayExtra("nama", "")
     }
 }
+
