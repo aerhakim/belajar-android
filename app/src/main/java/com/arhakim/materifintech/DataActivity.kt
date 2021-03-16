@@ -10,7 +10,7 @@ class DataActivity : AppCompatActivity() {
         setContentView(R.layout.activity_data)
 
         var bundle :Bundle?=intent.extras
-        val nama = intent.getStringArrayExtra("nama", "")
+        val nama = intent.getStringArrayExtra("nama")
     }
 }
 
